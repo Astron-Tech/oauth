@@ -19,8 +19,8 @@ It includes secure password handling, JWT tokens, PostgreSQL storage, CSRF prote
 ### 1. Clone and Install
 
 ```bash
-git clone https://github.com/YOUR-ORG/YOUR-REPO.git
-cd YOUR-REPO
+git clone https://github.com/Astron-Tech/oauth.git
+cd oauth
 npm install
 ```
 
