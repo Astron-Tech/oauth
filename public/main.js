@@ -1,0 +1,10 @@
+function startOAuth() {
+  const clientId = 'client1';
+  const redirectUri = 'http://localhost:3000/callback';
+  const scope = 'profile email';
+  const state = 'random_state_string';
+  window.location.href =
+    `/oauth/authorize?client_id=${clientId}` +
+    `&redirect_uri=${encodeURIComponent(redirectUri)}` +
+    `&response_type=code&scope=${encodeURIComponent(scope)}&state=${state}`;
+}
